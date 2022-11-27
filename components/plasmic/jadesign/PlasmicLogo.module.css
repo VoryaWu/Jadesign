@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  color: var(--token-7tb2kdPmDu4Qoo);
+  pointer-events: auto;
+  transform: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  min-width: 0;
+  min-height: 0;
+  display: block;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in;
+  -webkit-transition-duration: 1s;
+}
